@@ -82,4 +82,6 @@ You may want to only include access to the REBL jar while in development. Below 
    lein localrepo install REBL-0.9.108.jar com.cognitect/rebl 0.9.108
    ```
 4. Now you can add it to your dependencies:
-   ```clj [com.cognitect/rebl "0.9.108"]```
+   ```clj
+   [com.cognitect/rebl "0.9.108"]
+   ```
