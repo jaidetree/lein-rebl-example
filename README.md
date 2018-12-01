@@ -1,6 +1,6 @@
 # REBL with Lein REPL example
 
-A simple example of how to setup [REBL](https://github.com/cognitect-labs/REBL-distro) to use within `lein repl`.
+A simple example of how to setup [REBL](https://github.com/cognitect-labs/REBL-distro) to run within `lein repl`.
 
 ## Installation
 
