@@ -20,7 +20,14 @@ A simple example of how to setup [REBL](https://github.com/cognitect-labs/REBL-d
       :profiles {:uberjar {:aot :all}})
     ```
 4. In your terminal run `lein repl` to start an nrepl server and client.
-5. Once the Leiningen repl loads run the following:
+5. Once the Leiningen repl loads, run the following:
+
+    ```clj
+    (require '[cognitect.rebl :as rebl])
+    (rebl/ui)
+    ```
+    
+    Example:
 
     ```clj
     nREPL server started on port 57844 on host 127.0.0.1 - nrepl://127.0.0.1:57844
