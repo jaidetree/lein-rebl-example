@@ -55,7 +55,7 @@ The REBL UI should display and you are good to go :smile: :beer:
 
 ### Dev Profile
 
-You may want to only include access to the REBL jar while in development. Below is one of many ways to achieve this.
+You may want to only include access to the REBL jar while in development. Below is one of many ways to achieve this:
 
 ```clj
 (defproject rebl-test "0.1.0-SNAPSHOT"
@@ -71,7 +71,7 @@ You may want to only include access to the REBL jar while in development. Below 
                            :resource-paths ["env/dev/resources"]}})
 ```
 
-> **TIP**: _If you replace :dev profile with :repl the configuration only applies when running `lein.repl`. Read the [lein profiles](https://github.com/technomancy/leiningen/blob/master/doc/PROFILES.md) docs for more configuration options._
+> **TIP**: _If you replace :dev profile with :repl the configuration only applies when running `lein repl`. Read the [lein profiles](https://github.com/technomancy/leiningen/blob/master/doc/PROFILES.md) docs for more configuration options._
 
 ### Lein Local Repo
 
